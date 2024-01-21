@@ -82,6 +82,7 @@ RUN apt-get update; \
     liblcms2-dev \
     libtcmalloc-minimal4 \
     python-is-python3 \
+    curl \
     ;
 
 COPY ./server-python/requirements.txt /app/requirements.txt
